@@ -1,0 +1,311 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U?
+U 1 1 62F480F2
+P 8850 3900
+F 0 "U?" H 8850 2011 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 8850 1920 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 8850 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8850 3900 50  0001 C CNN
+	1    8850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62F5A2BE
+P 3700 1400
+F 0 "C?" H 3815 1446 50  0000 L CNN
+F 1 "100nF" H 3815 1355 50  0000 L CNN
+F 2 "" H 3738 1250 50  0001 C CNN
+F 3 "~" H 3700 1400 50  0001 C CNN
+	1    3700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62F5A747
+P 4150 1400
+F 0 "C?" H 4265 1446 50  0000 L CNN
+F 1 "100nF" H 4265 1355 50  0000 L CNN
+F 2 "" H 4188 1250 50  0001 C CNN
+F 3 "~" H 4150 1400 50  0001 C CNN
+	1    4150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62F5AE42
+P 4600 1400
+F 0 "C?" H 4715 1446 50  0000 L CNN
+F 1 "100nF" H 4715 1355 50  0000 L CNN
+F 2 "" H 4638 1250 50  0001 C CNN
+F 3 "~" H 4600 1400 50  0001 C CNN
+	1    4600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62F5B629
+P 5050 1400
+F 0 "C?" H 5165 1446 50  0000 L CNN
+F 1 "100nF" H 5165 1355 50  0000 L CNN
+F 2 "" H 5088 1250 50  0001 C CNN
+F 3 "~" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 62F5DB43
+P 3050 1400
+F 0 "C?" H 3168 1446 50  0000 L CNN
+F 1 "10uF" H 3168 1355 50  0000 L CNN
+F 2 "" H 3088 1250 50  0001 C CNN
+F 3 "~" H 3050 1400 50  0001 C CNN
+	1    3050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 62F52A75
+P 5300 5850
+F 0 "D?" H 5293 6067 50  0000 C CNN
+F 1 "LED" H 5293 5976 50  0000 C CNN
+F 2 "" H 5300 5850 50  0001 C CNN
+F 3 "~" H 5300 5850 50  0001 C CNN
+	1    5300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62F54DF4
+P 6800 3700
+F 0 "R?" V 6593 3700 50  0000 C CNN
+F 1 "22" V 6684 3700 50  0000 C CNN
+F 2 "" V 6730 3700 50  0001 C CNN
+F 3 "~" H 6800 3700 50  0001 C CNN
+	1    6800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62F54529
+P 6800 3400
+F 0 "R?" V 6593 3400 50  0000 C CNN
+F 1 "22" V 6684 3400 50  0000 C CNN
+F 2 "" V 6730 3400 50  0001 C CNN
+F 3 "~" H 6800 3400 50  0001 C CNN
+	1    6800 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 62F4B3DF
+P 4750 3500
+F 0 "J?" H 4857 4367 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 4857 4276 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4900 3500 50  0001 C CNN
+	1    4750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62F63A01
+P 6750 2600
+F 0 "C?" V 6498 2600 50  0000 C CNN
+F 1 "22p" V 6589 2600 50  0000 C CNN
+F 2 "" H 6788 2450 50  0001 C CNN
+F 3 "~" H 6750 2600 50  0001 C CNN
+	1    6750 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62F64296
+P 6750 3000
+F 0 "C?" V 6498 3000 50  0000 C CNN
+F 1 "22p" V 6589 3000 50  0000 C CNN
+F 2 "" H 6788 2850 50  0001 C CNN
+F 3 "~" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62F64CD9
+P 6100 2850
+F 0 "#PWR?" H 6100 2600 50  0001 C CNN
+F 1 "GND" H 6105 2677 50  0000 C CNN
+F 2 "" H 6100 2850 50  0001 C CNN
+F 3 "" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 62F6572D
+P 7250 2800
+F 0 "Y?" V 7204 2931 50  0000 L CNN
+F 1 "16MHz" V 7295 2931 50  0000 L CNN
+F 2 "" H 7250 2800 50  0001 C CNN
+F 3 "~" H 7250 2800 50  0001 C CNN
+	1    7250 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 2600 7250 2600
+Wire Wire Line
+	7250 2600 7250 2650
+Wire Wire Line
+	6900 3000 7250 3000
+Wire Wire Line
+	7250 3000 7250 2950
+Connection ~ 7250 2600
+Wire Wire Line
+	6600 2600 6300 2600
+Wire Wire Line
+	6300 2600 6300 2750
+Wire Wire Line
+	6300 3000 6600 3000
+Wire Wire Line
+	6300 2750 6100 2750
+Wire Wire Line
+	6100 2750 6100 2850
+Connection ~ 6300 2750
+Wire Wire Line
+	6300 2750 6300 3000
+Wire Wire Line
+	7250 2600 8250 2600
+Wire Wire Line
+	7250 3000 7700 3000
+Wire Wire Line
+	7700 3000 7700 2800
+Wire Wire Line
+	7700 2800 8250 2800
+Connection ~ 7250 3000
+Text GLabel 8000 2400 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	8250 2400 8000 2400
+Wire Wire Line
+	3050 1550 3050 1800
+Wire Wire Line
+	3050 1800 3700 1800
+Wire Wire Line
+	5050 1800 5050 1550
+Wire Wire Line
+	5050 1250 5050 1150
+Wire Wire Line
+	5050 1150 4600 1150
+Wire Wire Line
+	3050 1150 3050 1250
+Wire Wire Line
+	3700 1800 3700 1550
+Connection ~ 3700 1800
+Wire Wire Line
+	3700 1800 4150 1800
+Wire Wire Line
+	3700 1250 3700 1150
+Connection ~ 3700 1150
+Wire Wire Line
+	4150 1250 4150 1150
+Connection ~ 4150 1150
+Wire Wire Line
+	4150 1150 3700 1150
+Wire Wire Line
+	4150 1550 4150 1800
+Connection ~ 4150 1800
+Wire Wire Line
+	4150 1800 4600 1800
+Wire Wire Line
+	4600 1550 4600 1800
+Connection ~ 4600 1800
+Wire Wire Line
+	4600 1800 5050 1800
+Wire Wire Line
+	4600 1250 4600 1150
+Connection ~ 4600 1150
+Wire Wire Line
+	4600 1150 4150 1150
+Wire Wire Line
+	6950 3400 8250 3400
+Text GLabel 6300 3400 0    50   Input ~ 0
+D+
+Text GLabel 6300 3700 0    50   Input ~ 0
+D-
+Wire Wire Line
+	6650 3700 6300 3700
+Wire Wire Line
+	6950 3700 7750 3700
+Wire Wire Line
+	7750 3700 7750 3500
+Wire Wire Line
+	7750 3500 8250 3500
+Wire Wire Line
+	5350 3400 5450 3400
+Wire Wire Line
+	5450 3400 5450 3450
+Wire Wire Line
+	5450 3500 5350 3500
+Wire Wire Line
+	5350 3600 5450 3600
+Wire Wire Line
+	5450 3600 5450 3650
+Wire Wire Line
+	5450 3700 5350 3700
+Text GLabel 5550 3650 2    50   Input ~ 0
+D+
+Text GLabel 5550 3450 2    50   Input ~ 0
+D-
+Wire Wire Line
+	5550 3450 5450 3450
+Connection ~ 5450 3450
+Wire Wire Line
+	5450 3450 5450 3500
+Wire Wire Line
+	5550 3650 5450 3650
+Connection ~ 5450 3650
+Wire Wire Line
+	5450 3650 5450 3700
+Wire Wire Line
+	6300 3400 6650 3400
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 62F8876D
+P 2650 1150
+F 0 "FB?" V 2376 1150 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2467 1150 50  0000 C CNN
+F 2 "" V 2580 1150 50  0001 C CNN
+F 3 "~" H 2650 1150 50  0001 C CNN
+	1    2650 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 1150 3050 1150
+Connection ~ 3050 1150
+Wire Wire Line
+	3050 1150 3700 1150
+Text GLabel 2250 1150 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	2250 1150 2500 1150
+Text GLabel 8850 1800 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	8850 2100 8850 1800
+$EndSCHEMATC

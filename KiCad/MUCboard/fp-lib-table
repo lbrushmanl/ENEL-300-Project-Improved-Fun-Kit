@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/USB4105-GF-A")(options "")(descr ""))
+  (lib (name "Graphics")(type "KiCad")(uri "${KIPRJMOD}/Graphics")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "W:/Documents/300-group-project/KiCad/logo")(options "")(descr ""))
+)
