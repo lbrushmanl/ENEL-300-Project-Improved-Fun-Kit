@@ -1,4 +1,4 @@
-# ENEL300-Project-Improved-Fun-Kit
+# ENEL-300-Project-Improved-Fun-Kit
 
 For more info on the project a copy of our report is in the repository.
 
